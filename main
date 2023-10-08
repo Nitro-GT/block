@@ -1,0 +1,6 @@
+local dickhead = "Normalgadon"
+local p = game.Players[dickhead]
+p.Character:Destroy()
+p.CharacterAdded:Connect(function(c)
+c:Destroy()
+end)
